@@ -31,7 +31,11 @@ Responsible disclosure research focused on high-consequence edge routing, origin
 ---
 
 ## ⚙️ Systems Engineering & Technical Stack
-Aerospace & SDA : SGP4/SDP4 Analytical Kinematics, CCSDS CDM Ingestion, Covariance Transformation (RTN/J2000), Flight Dynamics Offensive Tradecraft : Ingress Auditing, Origin Bypass (CWE-1188), OAST / Blind Callback Verification, Auth Differentials, IDOR/BOLA Languages & Systems : Python (Algorithmic / Async), Bash, Modern C++, Node.js, SQL, Linux Kernel Architecture Security Tooling : Burp Suite Pro, Interactsh, Nuclei, Nmap, Wireshark, Metasploit, Docker, Git
+
+* **Aerospace & SDA:** SGP4/SDP4 Analytical Kinematics, CCSDS CDM Ingestion, Covariance Transformation (RTN/J2000), Flight Dynamics
+* **Offensive Tradecraft:** Ingress Auditing, Origin Bypass (CWE-1188), OAST / Blind Callback Verification, Auth Differentials, IDOR/BOLA
+* **Languages & Systems:** Python (Algorithmic / Async), Bash, Modern C++, Node.js, SQL, Linux Kernel Architecture
+* **Security Tooling:** Burp Suite Pro, Interactsh, Nuclei, Nmap, Wireshark, Metasploit, Docker, Git
 
 ---
 
