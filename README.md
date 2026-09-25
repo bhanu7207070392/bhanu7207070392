@@ -22,9 +22,9 @@ Responsible disclosure research focused on high-consequence edge routing, origin
 
 | Organization / Program | Scope & Impact Classification | Technical Vector & Tradecraft |
 | :--- | :--- | :--- |
-| **Apple Security Bounty** | Cloud Services & Ingress Architecture | Uncovered client-side configuration leaks and hardcoded production tokens; engineered non-destructive **differential authentication verification (`HTTP 401` vs `422`)** on live event ingestion queues (`xxx.platform.claris.com`). |
-| **Microsoft (MSRC)** | Cloud Storage & Subdomain Takeover | **Case 147973:** Identified a dangling Amazon S3 CloudFront origin without Origin Access Control (OAC) on an acquired enterprise security property (`xxxx.riskiq.net`). |
-| **Tesla Product Security** | Edge Media Infrastructure | Independently verified an unauthenticated Remote Code Execution (RCE) primitive on `xxxxx.tesla.cn`; synthesized custom **Out-of-Band (OAST)** payloads to bypass stateful WAF inspection (resolved as independent duplicate under CVD). |
+| **Apple Security Bounty** | Cloud Services & Ingress Architecture | Uncovered client-side configuration leaks and hardcoded production tokens; engineered non-destructive **differential authentication verification (`HTTP 401` vs `422`)** on live event ingestion queues (`[telemetry-ingress].platform.claris.com`). |
+| **Microsoft (MSRC)** | Cloud Storage & Subdomain Takeover | **Case 147973:** Identified a dangling Amazon S3 CloudFront origin without Origin Access Control (OAC) on an acquired enterprise security property (`[brand-origin].riskiq.net`). |
+| **Tesla Product Security** | Edge Media Infrastructure | Independently verified an unauthenticated Remote Code Execution (RCE) primitive on `[edge-media].tesla.cn`; synthesized custom **Out-of-Band (OAST)** payloads to bypass stateful WAF inspection (resolved as independent duplicate under CVD). |
 | **Meta Whitehat** | Generative AI Infrastructure | Isolated an application-layer availability primitive and upstream RPC failure state on `meta.ai` routing gateways, documenting cascading microservice timeout conditions. |
 | **Google VRP** | Enterprise Business Intelligence | Analyzed multi-tenant authorization boundaries and workspace credential isolation within Looker Studio data connectors. |
 
